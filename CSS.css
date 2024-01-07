@@ -4,20 +4,23 @@
    
     
 }
-body{
-    background: black;
+body {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background: #d0e5f7;
 }
 .body {
     width: 200px;
     height: 250px;
     padding: 3px;
-    margin:160px 0px 20px  10px;
+   
     float: left;
     background: linear-gradient(18deg, blue, red, green);
 }
-.body:first-child{
-    margin: 160px 0px 20px 200px;
-}
+
 
 .anibody {
     width: 200px;
