@@ -1,0 +1,16 @@
+
+
+
+
+
+
+@keyframes ani {
+    0% {
+        box-shadow: 0px 0px 1px black,
+            0px 12px 23px 0px blue;
+
+        background: linear-gradient(0deg, blue, red, green);
+    }
+
+   
+}

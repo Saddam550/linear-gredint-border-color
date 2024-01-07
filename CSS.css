@@ -1,0 +1,140 @@
+* {
+    padding: 0%;
+    margin: 0%;
+   
+    
+}
+body{
+    background: black;
+}
+.body {
+    width: 200px;
+    height: 250px;
+    padding: 3px;
+    margin:160px 0px 20px  10px;
+    float: left;
+    background: linear-gradient(18deg, blue, red, green);
+}
+.body:first-child{
+    margin: 160px 0px 20px 200px;
+}
+
+.anibody {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(56, 56, 56);
+}
+
+.body:hover {
+    animation: ani 1s infinite linear;
+   transition: 0.3s;
+    margin-top: 150px;
+    
+}
+
+@keyframes ani {
+    0% {
+        box-shadow: 0px 0px 1px black,
+            0px 12px 23px 0px blue;
+
+        background: linear-gradient(0deg, blue, red, green);
+    }
+
+    20% {
+        box-shadow: 0px 0px 1px black,
+            0px 12px 33px 0px green;
+
+        background: linear-gradient(80deg, red, green, blue);
+
+    }
+
+    40% {
+
+        box-shadow: 0px 0px 1px black,
+            0px 12px 33px 0px red;
+
+        background: linear-gradient(120deg, green, blue, red);
+
+
+    }
+
+    60% {
+        box-shadow: 0px 0px 1px black,
+            0px 12px 33px 0px blue;
+
+        background: linear-gradient(160deg, red, green, blue);
+
+
+    }
+
+    80% {
+        box-shadow: 0px 0px 1px black,
+            0px 12px 33px 0px green;
+
+
+        background: linear-gradient(200deg, blue, red, green);
+
+
+    }
+
+    100% {
+        box-shadow: 0px 0px 1px black,
+            0px 12px 33px 0px red;
+
+
+        background: linear-gradient(360deg, red, green, blue);
+
+    }
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: initial;
+    padding: 4px 0px;
+    background-color: rgb(56, 56, 56);
+}
+
+p {
+    text-align: center;
+    color: white;
+    margin: 0px 7px;
+    word-spacing: 1px;
+    background:rgb(56, 56, 56) ;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    margin: 20px 60px;
+    background-color: red;
+    border: 1px solid white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: .4s;
+    border-radius: 5px;
+
+
+    
+
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+
+button:hover a {
+    color: red;
+    
+}
+button:hover {
+
+    background-color: rgb(21, 255, 0);
+
+}
+
